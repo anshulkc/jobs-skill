@@ -1,1 +1,1460 @@
-{"OpenAI": [["ashby", "openai"]], "Anthropic": [["greenhouse", "anthropic"]], "Scale AI": [["greenhouse", "scaleai"]], "Figma": [["greenhouse", "figma"]], "Ramp": [["ashby", "ramp"]], "Glean": [["greenhouse", "gleanwork"]], "Neuralink": [["greenhouse", "neuralink"]], "Nuro": [["greenhouse", "nuro"]], "Tenstorrent": [["greenhouse", "tenstorrent"]], "Verkada": [["greenhouse", "verkada"]], "Affirm": [["greenhouse", "affirm"]], "Baseten": [["ashby", "baseten"]], "MatX": [["ashby", "matx"]], "Warp": [["ashby", "warp"]], "Fireworks AI": [["ashby", "fireworks"]], "EliseAI": [["ashby", "eliseai"]], "Anduril Industries": [["greenhouse", "andurilindustries"]], "Anduril": [["greenhouse", "andurilindustries"]], "Applied Intuition": [["ashby", "applied"]], "SpaceX": [["greenhouse", "spacex"]], "SpaceXAI": [["greenhouse", "xai"]], "xAI": [["greenhouse", "xai"]], "Zoox": [["lever", "zoox"]], "AppLovin": [["greenhouse", "applovin"]], "Jump Trading": [["greenhouse", "jumptrading"]], "Traba": [["ashby", "traba"]], "SentiLink": [["ashby", "sentilink"]], "Motional": [["greenhouse", "motional"]], "True Anomaly": [["greenhouse", "trueanomalyinc"]], "Fieldguide": [["ashby", "fieldguide"]], "Waabi": [["lever", "waabi"]], "Mach Industries": [["ashby", "mach"]], "Point72": [["greenhouse", "point72"]], "DV Trading LLC": [["greenhouse", "dvtrading"]], "DV Trading A/S": [["greenhouse", "dvtrading"]], "DV Trading": [["greenhouse", "dvtrading"]], "Virtu Financial": [["greenhouse", "virtu"]], "Parafin": [["ashby", "parafin"]], "CircuitHub": [["ashby", "circuithub"]], "Databricks": [["greenhouse", "databricks"]], "Together AI": [["greenhouse", "togetherai"]], "Deepgram": [["ashby", "deepgram"]], "Exa": [["ashby", "exa"]], "Ellipsis Labs": [["ashby", "ellipsislabs"]], "Toyota Research Institute": [["lever", "tri"]], "Roblox": [["greenhouse", "roblox"]], "Samsara": [["greenhouse", "samsara"]], "Notion": [["ashby", "notion"]], "Palantir Technologies": [["lever", "palantir"]], "Palantir": [["lever", "palantir"]], "IMC Trading": [["greenhouse", "imc"]], "DRW": [["greenhouse", "drweng"]], "Tower Research Capital": [["greenhouse", "towerresearchcapital"]], "Chicago Trading Company": [["greenhouse", "chicagotradingcampus"]], "CTC": [["greenhouse", "chicagotradingcampus"]], "Sentry": [["ashby", "sentry"]], "Akuna Capital": [["greenhouse", "akunacapital"]], "Apptronik": [["greenhouse", "apptronik"]], "Aquatic Capital Management": [["greenhouse", "aquaticcapitalmanagement"]], "Astranis Space Technologies": [["greenhouse", "astranis"]], "Astranis": [["greenhouse", "astranis"]], "Axon": [["greenhouse", "axon"]], "Cohere": [["ashby", "cohere"]], "Dexmate": [["ashby", "dexmate"]], "Docugami": [["greenhouse", "docugami"]], "Etched": [["ashby", "etched"]], "Figure": [["greenhouse", "figureai"]], "Ginkgo Bioworks": [["greenhouse", "ginkgobioworks"]], "Hermeus": [["lever", "hermeus"]], "MeshyAI": [["ashby", "meshy"]], "Modal": [["ashby", "modal"]], "PsiQuantum": [["greenhouse", "psiquantum"]], "Ritual": [["greenhouse", "ritual"]], "Samaya AI": [["greenhouse", "samayaai"]], "Sierra": [["ashby", "sierra"]], "TransMarket Group": [["greenhouse", "transmarketgroup"]], "Truveta": [["greenhouse", "truveta"]], "CoreWeave": [["greenhouse", "coreweave"]], "Crusoe": [["ashby", "Crusoe"]], "Discord": [["greenhouse", "discord"]], "Inversion": [["greenhouse", "inversionspace"]], "Recorded Future": [["greenhouse", "recordedfuture"]], "Relativity": [["greenhouse", "relativity"]], "The Nuclear Company": [["greenhouse", "thenuclearcompany"]], "Torc Robotics": [["greenhouse", "torcrobotics"]], "IonQ": [["greenhouse", "ionq"]], "Gensyn": [["greenhouse", "gensyn"]], "CertiK": [["lever", "certik"]], "Giga": [["ashby", "gigaml"]], "Tilde Research": [["ashby", "tilderesearch"]], "Varda Space Industries": [["greenhouse", "vardaspace"]], "Varda": [["greenhouse", "vardaspace"]], "Zone 5 Technologies": [["greenhouse", "zone5technologies"]], "Cerebras": [["ashby", "cerebras"]], "Snowflake": [["ashby", "snowflake"]], "Uniswap": [["ashby", "uniswap"]], "Abridge": [["ashby", "abridge"]], "Pylon": [["ashby", "pylon-labs"]], "Composio": [["ashby", "composio"]], "Astronomer": [["ashby", "astronomer"]], "Handshake": [["ashby", "handshake"]], "Flow Engineering": [["ashby", "flowengineering"]], "Blue Origin": [["greenhouse", "blueorigin"]], "DoorDash": [["greenhouse", "doordashusa"]], "Skild AI": [["ashby", "skild"]], "Jane Street": [["greenhouse", "janestreet"]], "Flow Traders": [["greenhouse", "flowtraders"]], "Five Rings Capital": [["greenhouse", "fiveringsllc"]], "Belvedere Trading": [["lever", "belvederetrading"]], "Headlands Tech Holdings": [["greenhouse", "headlandstechnologiesllc"]], "Optiver": [["greenhouse", "optiver"]], "The Trade Desk": [["greenhouse", "thetradedesk"]], "Rivian": [["greenhouse", "rivian"]], "BlackEdge Capital": [["greenhouse", "blackedgecapital"]], "Stripe": [["greenhouse", "stripe"]], "Plaid": [["lever", "plaid"]], "Block": [["greenhouse", "block"]], "Square": [["greenhouse", "block"]], "Coinbase": [["greenhouse", "coinbase"]], "Robinhood": [["greenhouse", "robinhood"]], "Brex": [["greenhouse", "brex"]], "Mercury": [["greenhouse", "mercury"]], "Chime": [["greenhouse", "chime"]], "Instacart": [["greenhouse", "instacart"]], "Airbnb": [["greenhouse", "airbnb"]], "Pinterest": [["greenhouse", "pinterest"]], "Reddit": [["greenhouse", "reddit"]], "Dropbox": [["greenhouse", "dropbox"]], "Twilio": [["greenhouse", "twilio"]], "Cloudflare": [["greenhouse", "cloudflare"]], "Datadog": [["greenhouse", "datadog"]], "Atlassian": [["lever", "atlassian"]], "Canva": [["lever", "canva"]], "Vercel": [["greenhouse", "vercel"]], "Netlify": [["greenhouse", "netlify"]], "Supabase": [["greenhouse", "supabase"], ["ashby", "supabase"]], "PlanetScale": [["greenhouse", "planetscale"], ["ashby", "planetscale"]], "DigitalOcean": [["greenhouse", "digitalocean98"]], "Fastly": [["greenhouse", "fastly"]], "PagerDuty": [["greenhouse", "pagerduty"]], "Elastic": [["greenhouse", "elastic"]], "Grafana Labs": [["greenhouse", "grafanalabs"]], "HashiCorp": [["greenhouse", "hashicorp"]], "Confluent": [["greenhouse", "confluent"]], "MongoDB": [["greenhouse", "mongodb"]], "Redis": [["greenhouse", "redis"]], "Okta": [["greenhouse", "okta"]], "1Password": [["lever", "1password"]], "Retool": [["greenhouse", "retool"]], "Linear": [["ashby", "linear"]], "Airtable": [["greenhouse", "airtable"]], "Asana": [["greenhouse", "asana"]], "Gusto": [["greenhouse", "gusto"]], "Deel": [["ashby", "deel"]], "Vanta": [["ashby", "vanta"]], "Ironclad": [["greenhouse", "ironcladinc"]], "Harvey": [["ashby", "harvey"]], "Yelp": [["greenhouse", "yelp"]], "Duolingo": [["greenhouse", "duolingo"]], "Grammarly": [["greenhouse", "grammarly"]], "Coursera": [["greenhouse", "coursera"]], "Wealthfront": [["greenhouse", "wealthfront"]], "Marqeta": [["greenhouse", "marqeta"]], "Zip": [["ashby", "zip"]], "SimpliSafe": [["greenhouse", "simplisafe"]], "Replicate": [["ashby", "replicate"]], "Runpod": [["ashby", "runpod"]], "Anyscale": [["greenhouse", "anyscale"]], "Weights & Biases": [["lever", "wandb"]], "Pinecone": [["greenhouse", "pinecone"]], "LangChain": [["ashby", "langchain"]], "Adept": [["greenhouse", "adept"]], "Imbue": [["ashby", "imbue"]], "Poolside": [["ashby", "poolside"]], "Reflection AI": [["ashby", "reflectionai"]], "Luma AI": [["ashby", "lumaai"]], "Runway": [["greenhouse", "runwayml"]], "Suno": [["ashby", "suno"]], "ElevenLabs": [["ashby", "elevenlabs"]], "Decagon": [["ashby", "decagon"]], "Clay": [["ashby", "clay"]], "Infleqtion": [["greenhouse", "infleqtion"]], "WindBorne Systems": [["ashby", "windborne"]], "Specter Aerospace": [["ashby", "specter"]], "Antares": [["ashby", "antares"]], "RoboForce": [["ashby", "roboforce"]], "Kodiak": [["greenhouse", "kodiak"]], "Primer": [["ashby", "primer"]], "Heliux": [["ashby", "heliux"]], "Rendezvous Robotics": [["greenhouse", "rendezvousrobotics"]], "Mesh Optical Technologies": [["greenhouse", "meshopticaltechnologies"]], "ASM": [["greenhouse", "asm"]], "Geotab": [["greenhouse", "geotab"]], "Kognitos": [["ashby", "kognitos"]]}
+{
+"OpenAI": [
+[
+"ashby",
+"openai"
+]
+],
+"Anthropic": [
+[
+"greenhouse",
+"anthropic"
+]
+],
+"Scale AI": [
+[
+"greenhouse",
+"scaleai"
+]
+],
+"Figma": [
+[
+"greenhouse",
+"figma"
+]
+],
+"Ramp": [
+[
+"ashby",
+"ramp"
+]
+],
+"Glean": [
+[
+"greenhouse",
+"gleanwork"
+]
+],
+"Neuralink": [
+[
+"greenhouse",
+"neuralink"
+]
+],
+"Nuro": [
+[
+"greenhouse",
+"nuro"
+]
+],
+"Tenstorrent": [
+[
+"greenhouse",
+"tenstorrent"
+]
+],
+"Verkada": [
+[
+"greenhouse",
+"verkada"
+]
+],
+"Affirm": [
+[
+"greenhouse",
+"affirm"
+]
+],
+"Baseten": [
+[
+"ashby",
+"baseten"
+]
+],
+"MatX": [
+[
+"ashby",
+"matx"
+]
+],
+"Warp": [
+[
+"ashby",
+"warp"
+]
+],
+"Fireworks AI": [
+[
+"ashby",
+"fireworks"
+]
+],
+"EliseAI": [
+[
+"ashby",
+"eliseai"
+]
+],
+"Anduril Industries": [
+[
+"greenhouse",
+"andurilindustries"
+]
+],
+"Anduril": [
+[
+"greenhouse",
+"andurilindustries"
+]
+],
+"Applied Intuition": [
+[
+"ashby",
+"applied"
+]
+],
+"SpaceX": [
+[
+"greenhouse",
+"spacex"
+]
+],
+"SpaceXAI": [
+[
+"greenhouse",
+"xai"
+]
+],
+"xAI": [
+[
+"greenhouse",
+"xai"
+]
+],
+"Zoox": [
+[
+"lever",
+"zoox"
+]
+],
+"AppLovin": [
+[
+"greenhouse",
+"applovin"
+]
+],
+"Jump Trading": [
+[
+"greenhouse",
+"jumptrading"
+]
+],
+"Traba": [
+[
+"ashby",
+"traba"
+]
+],
+"SentiLink": [
+[
+"ashby",
+"sentilink"
+]
+],
+"Motional": [
+[
+"greenhouse",
+"motional"
+]
+],
+"True Anomaly": [
+[
+"greenhouse",
+"trueanomalyinc"
+]
+],
+"Fieldguide": [
+[
+"ashby",
+"fieldguide"
+]
+],
+"Waabi": [
+[
+"lever",
+"waabi"
+]
+],
+"Mach Industries": [
+[
+"ashby",
+"mach"
+]
+],
+"Point72": [
+[
+"greenhouse",
+"point72"
+]
+],
+"DV Trading LLC": [
+[
+"greenhouse",
+"dvtrading"
+]
+],
+"DV Trading A/S": [
+[
+"greenhouse",
+"dvtrading"
+]
+],
+"DV Trading": [
+[
+"greenhouse",
+"dvtrading"
+]
+],
+"Virtu Financial": [
+[
+"greenhouse",
+"virtu"
+]
+],
+"Parafin": [
+[
+"ashby",
+"parafin"
+]
+],
+"CircuitHub": [
+[
+"ashby",
+"circuithub"
+]
+],
+"Databricks": [
+[
+"greenhouse",
+"databricks"
+]
+],
+"Together AI": [
+[
+"greenhouse",
+"togetherai"
+]
+],
+"Deepgram": [
+[
+"ashby",
+"deepgram"
+]
+],
+"Exa": [
+[
+"ashby",
+"exa"
+]
+],
+"Ellipsis Labs": [
+[
+"ashby",
+"ellipsislabs"
+]
+],
+"Toyota Research Institute": [
+[
+"lever",
+"tri"
+]
+],
+"Roblox": [
+[
+"greenhouse",
+"roblox"
+]
+],
+"Samsara": [
+[
+"greenhouse",
+"samsara"
+]
+],
+"Notion": [
+[
+"ashby",
+"notion"
+]
+],
+"Palantir Technologies": [
+[
+"lever",
+"palantir"
+]
+],
+"Palantir": [
+[
+"lever",
+"palantir"
+]
+],
+"IMC Trading": [
+[
+"greenhouse",
+"imc"
+]
+],
+"DRW": [
+[
+"greenhouse",
+"drweng"
+]
+],
+"Tower Research Capital": [
+[
+"greenhouse",
+"towerresearchcapital"
+]
+],
+"Chicago Trading Company": [
+[
+"greenhouse",
+"chicagotradingcampus"
+]
+],
+"CTC": [
+[
+"greenhouse",
+"chicagotradingcampus"
+]
+],
+"Sentry": [
+[
+"ashby",
+"sentry"
+]
+],
+"Akuna Capital": [
+[
+"greenhouse",
+"akunacapital"
+]
+],
+"Apptronik": [
+[
+"greenhouse",
+"apptronik"
+]
+],
+"Aquatic Capital Management": [
+[
+"greenhouse",
+"aquaticcapitalmanagement"
+]
+],
+"Astranis Space Technologies": [
+[
+"greenhouse",
+"astranis"
+]
+],
+"Astranis": [
+[
+"greenhouse",
+"astranis"
+]
+],
+"Axon": [
+[
+"greenhouse",
+"axon"
+]
+],
+"Cohere": [
+[
+"ashby",
+"cohere"
+]
+],
+"Dexmate": [
+[
+"ashby",
+"dexmate"
+]
+],
+"Docugami": [
+[
+"greenhouse",
+"docugami"
+]
+],
+"Etched": [
+[
+"ashby",
+"etched"
+]
+],
+"Figure": [
+[
+"greenhouse",
+"figureai"
+]
+],
+"Ginkgo Bioworks": [
+[
+"greenhouse",
+"ginkgobioworks"
+]
+],
+"Hermeus": [
+[
+"lever",
+"hermeus"
+]
+],
+"MeshyAI": [
+[
+"ashby",
+"meshy"
+]
+],
+"Modal": [
+[
+"ashby",
+"modal"
+]
+],
+"PsiQuantum": [
+[
+"greenhouse",
+"psiquantum"
+]
+],
+"Ritual": [
+[
+"greenhouse",
+"ritual"
+]
+],
+"Samaya AI": [
+[
+"greenhouse",
+"samayaai"
+]
+],
+"Sierra": [
+[
+"ashby",
+"sierra"
+]
+],
+"TransMarket Group": [
+[
+"greenhouse",
+"transmarketgroup"
+]
+],
+"Truveta": [
+[
+"greenhouse",
+"truveta"
+]
+],
+"CoreWeave": [
+[
+"greenhouse",
+"coreweave"
+]
+],
+"Crusoe": [
+[
+"ashby",
+"Crusoe"
+]
+],
+"Discord": [
+[
+"greenhouse",
+"discord"
+]
+],
+"Inversion": [
+[
+"greenhouse",
+"inversionspace"
+]
+],
+"Recorded Future": [
+[
+"greenhouse",
+"recordedfuture"
+]
+],
+"Relativity": [
+[
+"greenhouse",
+"relativity"
+]
+],
+"The Nuclear Company": [
+[
+"greenhouse",
+"thenuclearcompany"
+]
+],
+"Torc Robotics": [
+[
+"greenhouse",
+"torcrobotics"
+]
+],
+"IonQ": [
+[
+"greenhouse",
+"ionq"
+]
+],
+"Gensyn": [
+[
+"greenhouse",
+"gensyn"
+]
+],
+"CertiK": [
+[
+"lever",
+"certik"
+]
+],
+"Giga": [
+[
+"ashby",
+"gigaml"
+]
+],
+"Tilde Research": [
+[
+"ashby",
+"tilderesearch"
+]
+],
+"Varda Space Industries": [
+[
+"greenhouse",
+"vardaspace"
+]
+],
+"Varda": [
+[
+"greenhouse",
+"vardaspace"
+]
+],
+"Zone 5 Technologies": [
+[
+"greenhouse",
+"zone5technologies"
+]
+],
+"Cerebras": [
+[
+"ashby",
+"cerebras"
+]
+],
+"Snowflake": [
+[
+"ashby",
+"snowflake"
+]
+],
+"Uniswap": [
+[
+"ashby",
+"uniswap"
+]
+],
+"Abridge": [
+[
+"ashby",
+"abridge"
+]
+],
+"Pylon": [
+[
+"ashby",
+"pylon-labs"
+]
+],
+"Composio": [
+[
+"ashby",
+"composio"
+]
+],
+"Astronomer": [
+[
+"ashby",
+"astronomer"
+]
+],
+"Handshake": [
+[
+"ashby",
+"handshake"
+]
+],
+"Flow Engineering": [
+[
+"ashby",
+"flowengineering"
+]
+],
+"Blue Origin": [
+[
+"greenhouse",
+"blueorigin"
+]
+],
+"DoorDash": [
+[
+"greenhouse",
+"doordashusa"
+]
+],
+"Skild AI": [
+[
+"ashby",
+"skild"
+]
+],
+"Jane Street": [
+[
+"greenhouse",
+"janestreet"
+]
+],
+"Flow Traders": [
+[
+"greenhouse",
+"flowtraders"
+]
+],
+"Five Rings Capital": [
+[
+"greenhouse",
+"fiveringsllc"
+]
+],
+"Belvedere Trading": [
+[
+"lever",
+"belvederetrading"
+]
+],
+"Headlands Tech Holdings": [
+[
+"greenhouse",
+"headlandstechnologiesllc"
+]
+],
+"Optiver": [
+[
+"greenhouse",
+"optiver"
+]
+],
+"The Trade Desk": [
+[
+"greenhouse",
+"thetradedesk"
+]
+],
+"Rivian": [
+[
+"greenhouse",
+"rivian"
+]
+],
+"BlackEdge Capital": [
+[
+"greenhouse",
+"blackedgecapital"
+]
+],
+"Stripe": [
+[
+"greenhouse",
+"stripe"
+]
+],
+"Plaid": [
+[
+"lever",
+"plaid"
+]
+],
+"Block": [
+[
+"greenhouse",
+"block"
+]
+],
+"Square": [
+[
+"greenhouse",
+"block"
+]
+],
+"Coinbase": [
+[
+"greenhouse",
+"coinbase"
+]
+],
+"Robinhood": [
+[
+"greenhouse",
+"robinhood"
+]
+],
+"Brex": [
+[
+"greenhouse",
+"brex"
+]
+],
+"Mercury": [
+[
+"greenhouse",
+"mercury"
+]
+],
+"Chime": [
+[
+"greenhouse",
+"chime"
+]
+],
+"Instacart": [
+[
+"greenhouse",
+"instacart"
+]
+],
+"Airbnb": [
+[
+"greenhouse",
+"airbnb"
+]
+],
+"Pinterest": [
+[
+"greenhouse",
+"pinterest"
+]
+],
+"Reddit": [
+[
+"greenhouse",
+"reddit"
+]
+],
+"Dropbox": [
+[
+"greenhouse",
+"dropbox"
+]
+],
+"Twilio": [
+[
+"greenhouse",
+"twilio"
+]
+],
+"Cloudflare": [
+[
+"greenhouse",
+"cloudflare"
+]
+],
+"Datadog": [
+[
+"greenhouse",
+"datadog"
+]
+],
+"Atlassian": [
+[
+"lever",
+"atlassian"
+]
+],
+"Canva": [
+[
+"lever",
+"canva"
+]
+],
+"Vercel": [
+[
+"greenhouse",
+"vercel"
+]
+],
+"Netlify": [
+[
+"greenhouse",
+"netlify"
+]
+],
+"Supabase": [
+[
+"greenhouse",
+"supabase"
+],
+[
+"ashby",
+"supabase"
+]
+],
+"PlanetScale": [
+[
+"greenhouse",
+"planetscale"
+],
+[
+"ashby",
+"planetscale"
+]
+],
+"DigitalOcean": [
+[
+"greenhouse",
+"digitalocean98"
+]
+],
+"Fastly": [
+[
+"greenhouse",
+"fastly"
+]
+],
+"PagerDuty": [
+[
+"greenhouse",
+"pagerduty"
+]
+],
+"Elastic": [
+[
+"greenhouse",
+"elastic"
+]
+],
+"Grafana Labs": [
+[
+"greenhouse",
+"grafanalabs"
+]
+],
+"HashiCorp": [
+[
+"greenhouse",
+"hashicorp"
+]
+],
+"Confluent": [
+[
+"greenhouse",
+"confluent"
+]
+],
+"MongoDB": [
+[
+"greenhouse",
+"mongodb"
+]
+],
+"Redis": [
+[
+"greenhouse",
+"redis"
+]
+],
+"Okta": [
+[
+"greenhouse",
+"okta"
+]
+],
+"1Password": [
+[
+"lever",
+"1password"
+]
+],
+"Retool": [
+[
+"greenhouse",
+"retool"
+]
+],
+"Linear": [
+[
+"ashby",
+"linear"
+]
+],
+"Airtable": [
+[
+"greenhouse",
+"airtable"
+]
+],
+"Asana": [
+[
+"greenhouse",
+"asana"
+]
+],
+"Gusto": [
+[
+"greenhouse",
+"gusto"
+]
+],
+"Deel": [
+[
+"ashby",
+"deel"
+]
+],
+"Vanta": [
+[
+"ashby",
+"vanta"
+]
+],
+"Ironclad": [
+[
+"greenhouse",
+"ironcladinc"
+]
+],
+"Harvey": [
+[
+"ashby",
+"harvey"
+]
+],
+"Yelp": [
+[
+"greenhouse",
+"yelp"
+]
+],
+"Duolingo": [
+[
+"greenhouse",
+"duolingo"
+]
+],
+"Grammarly": [
+[
+"greenhouse",
+"grammarly"
+]
+],
+"Coursera": [
+[
+"greenhouse",
+"coursera"
+]
+],
+"Wealthfront": [
+[
+"greenhouse",
+"wealthfront"
+]
+],
+"Marqeta": [
+[
+"greenhouse",
+"marqeta"
+]
+],
+"Zip": [
+[
+"ashby",
+"zip"
+]
+],
+"SimpliSafe": [
+[
+"greenhouse",
+"simplisafe"
+]
+],
+"Replicate": [
+[
+"ashby",
+"replicate"
+]
+],
+"Runpod": [
+[
+"ashby",
+"runpod"
+]
+],
+"Anyscale": [
+[
+"greenhouse",
+"anyscale"
+]
+],
+"Weights & Biases": [
+[
+"lever",
+"wandb"
+]
+],
+"Pinecone": [
+[
+"greenhouse",
+"pinecone"
+]
+],
+"LangChain": [
+[
+"ashby",
+"langchain"
+]
+],
+"Adept": [
+[
+"greenhouse",
+"adept"
+]
+],
+"Imbue": [
+[
+"ashby",
+"imbue"
+]
+],
+"Poolside": [
+[
+"ashby",
+"poolside"
+]
+],
+"Reflection AI": [
+[
+"ashby",
+"reflectionai"
+]
+],
+"Luma AI": [
+[
+"ashby",
+"lumaai"
+]
+],
+"Runway": [
+[
+"greenhouse",
+"runwayml"
+],
+[
+"ashby",
+"runway"
+]
+],
+"Suno": [
+[
+"ashby",
+"suno"
+]
+],
+"ElevenLabs": [
+[
+"ashby",
+"elevenlabs"
+]
+],
+"Decagon": [
+[
+"ashby",
+"decagon"
+]
+],
+"Clay": [
+[
+"ashby",
+"clay"
+]
+],
+"Infleqtion": [
+[
+"greenhouse",
+"infleqtion"
+]
+],
+"WindBorne Systems": [
+[
+"ashby",
+"windborne"
+]
+],
+"Specter Aerospace": [
+[
+"ashby",
+"specter"
+]
+],
+"Antares": [
+[
+"ashby",
+"antares"
+]
+],
+"RoboForce": [
+[
+"ashby",
+"roboforce"
+]
+],
+"Kodiak": [
+[
+"greenhouse",
+"kodiak"
+]
+],
+"Primer": [
+[
+"ashby",
+"primer"
+]
+],
+"Heliux": [
+[
+"ashby",
+"heliux"
+]
+],
+"Rendezvous Robotics": [
+[
+"greenhouse",
+"rendezvousrobotics"
+]
+],
+"Mesh Optical Technologies": [
+[
+"greenhouse",
+"meshopticaltechnologies"
+]
+],
+"ASM": [
+[
+"greenhouse",
+"asm"
+]
+],
+"Geotab": [
+[
+"greenhouse",
+"geotab"
+]
+],
+"Kognitos": [
+[
+"ashby",
+"kognitos"
+]
+],
+"Whop": [
+[
+"ashby",
+"whop"
+]
+],
+"HeyGen": [
+[
+"greenhouse",
+"heygen"
+]
+],
+"Pika": [
+[
+"ashby",
+"pika"
+]
+],
+"Braintrust": [
+[
+"ashby",
+"braintrust"
+]
+],
+"Arize AI": [
+[
+"greenhouse",
+"arizeai"
+]
+],
+"Galileo": [
+[
+"greenhouse",
+"galileo"
+]
+],
+"Cognition": [
+[
+"ashby",
+"cognition"
+]
+],
+"Factory": [
+[
+"ashby",
+"factory"
+]
+],
+"Replit": [
+[
+"ashby",
+"replit"
+]
+],
+"Sourcegraph": [
+[
+"greenhouse",
+"sourcegraph91"
+]
+],
+"Zed": [
+[
+"ashby",
+"zed"
+]
+],
+"Browserbase": [
+[
+"ashby",
+"browserbase"
+]
+],
+"E2B": [
+[
+"ashby",
+"e2b"
+]
+],
+"Temporal": [
+[
+"ashby",
+"temporal"
+]
+],
+"Inngest": [
+[
+"ashby",
+"inngest"
+]
+],
+"ClickHouse": [
+[
+"ashby",
+"clickhouse"
+]
+],
+"Neon": [
+[
+"ashby",
+"neon"
+]
+],
+"Shield AI": [
+[
+"lever",
+"shieldai"
+]
+],
+"Waymo": [
+[
+"greenhouse",
+"waymo"
+]
+],
+"Wayve": [
+[
+"greenhouse",
+"wayve"
+]
+],
+"Wiz": [
+[
+"greenhouse",
+"wizinc"
+]
+],
+"Semgrep": [
+[
+"ashby",
+"semgrep"
+]
+],
+"Chainguard": [
+[
+"greenhouse",
+"chainguard"
+]
+],
+"Tailscale": [
+[
+"greenhouse",
+"tailscale"
+]
+],
+"Substack": [
+[
+"ashby",
+"substack"
+]
+],
+"Character.AI": [
+[
+"ashby",
+"character"
+]
+],
+"Ideogram": [
+[
+"ashby",
+"ideogram"
+]
+],
+"Krea": [
+[
+"ashby",
+"krea"
+]
+],
+"Descript": [
+[
+"greenhouse",
+"descript"
+]
+],
+"Synthesia": [
+[
+"ashby",
+"synthesia"
+]
+],
+"Moloco": [
+[
+"greenhouse",
+"moloco"
+]
+],
+"Epic Games": [
+[
+"greenhouse",
+"epicgames"
+]
+],
+"Riot Games": [
+[
+"greenhouse",
+"riotgames"
+]
+],
+"Snorkel AI": [
+[
+"greenhouse",
+"snorkelai"
+]
+],
+"Labelbox": [
+[
+"greenhouse",
+"labelbox"
+]
+],
+"Writer": [
+[
+"ashby",
+"writer"
+]
+],
+"Nebius": [
+[
+"greenhouse",
+"nebius"
+]
+],
+"1X": [
+[
+"ashby",
+"1x"
+]
+],
+"Agility Robotics": [
+[
+"greenhouse",
+"agilityrobotics"
+]
+],
+"Phantom": [
+[
+"ashby",
+"phantom"
+]
+],
+"Mercor": [
+[
+"ashby",
+"mercor"
+]
+],
+"Five Rings": [
+[
+"greenhouse",
+"fiveringsllc"
+]
+],
+"Akuna Capital University": [
+[
+"greenhouse",
+"akunacapital"
+]
+],
+"Headlands Technologies LLC": [
+[
+"greenhouse",
+"headlandstechnologiesllc"
+]
+],
+"Belvedere Trading, LLC": [
+[
+"lever",
+"belvederetrading"
+]
+],
+"Voleon": [
+[
+"lever",
+"voleon"
+]
+],
+"The Voleon Group": [
+[
+"lever",
+"voleon"
+]
+]
+}

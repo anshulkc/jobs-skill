@@ -36,7 +36,7 @@ def build(src,cap=4):
         if cnt[(r["co"],tier)]>=cap: continue
         if not r["url"]:
             u,s=link(r["co"],r["title"],r["loc"])
-            if not u: continue
+            if not u: u,s="https://www.google.com/search?q="+urllib.parse.quote(f'{r["co"]} {r["title"]}'),"web"
             r["url"],r["src"]=u,s
         cnt[(r["co"],tier)]+=1
         r.update(tier=tier,name=NAME.get(r["co"],r["co"]),days=int((time.time()-r["ts"])/86400))
