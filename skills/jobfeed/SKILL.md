@@ -36,7 +36,7 @@ After a run, read the `written …` line for the row count and hand the user the
 
 ## Reading results
 
-`[apply]` exact posting · `[apply ⌕]` employer careers page · `[apply 🔍]` web search. 🆕 = new since the previous run of that file. 403/429 on Citadel, Tesla, Intel, Blue Origin are bot protection, not dead links. Details: [references/output.md](references/output.md).
+`[apply]` exact posting · `[apply ⌕]` employer careers page · `[apply 🔍]` web search. 🆕 = new since the previous run of that file; on a first run nothing is marked (there's nothing to compare against — don't describe that as "no turnover"). 403/429 on Citadel, Tesla, Intel, Blue Origin are bot protection, not dead links. Details: [references/output.md](references/output.md).
 
 ## Common mistakes
 
