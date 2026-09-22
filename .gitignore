@@ -1,0 +1,12 @@
+# regenerated on every run — never commit
+*_raw.json
+listings_dev.json
+boards.json
+built.json
+offcycle.json
+lc.txt
+links.txt
+old.md
+__pycache__/
+# your generated list (commit it if you want history)
+jobs.md
