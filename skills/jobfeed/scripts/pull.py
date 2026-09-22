@@ -1,4 +1,6 @@
-import json,urllib.request,subprocess
+import json,urllib.request,subprocess,os
+ROOT=os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','..','..'))
+os.makedirs(os.path.join(ROOT,'data'),exist_ok=True); os.chdir(os.path.join(ROOT,'data'))
 subprocess.run(["curl","-s","-o","listings_dev.json","https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/dev/.github/scripts/listings.json"])
 print("simplify:",len(json.load(open("listings_dev.json"))),"listings")
 def fetch(cat,pos,cnt=50):

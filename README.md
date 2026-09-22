@@ -1,23 +1,47 @@
-# jobfeed
+# jobs-skill
 
-One command → a Markdown list of jobs at companies you choose, with apply links. Two feeds:
+A Claude Code skill that builds a curated job list from live sources — new grad, internships (including off-cycle), or senior/experienced — into one Markdown file with employer-direct links.
+
+## Use it in Claude Code
+
+```
+/plugin marketplace add anshulkc/jobs-skill
+/plugin install jobfeed@jobs-skill
+```
+
+Or clone and open the folder — the skill is picked up automatically. Then:
+
+> `/jobfeed` run the senior feed
+> `/jobfeed` only remote or hybrid, Seattle or San Francisco
+> `/jobfeed` add Waymo
+
+## Use it by hand
 
 ```bash
-git clone <this repo> && cd jobfeed
+git clone https://github.com/anshulkc/jobs-skill && cd jobs-skill
 ./run.sh --senior     # senior / experienced engineers  →  senior.md   (~1 min)
 ./run.sh              # new grad + internships          →  jobs.md     (5–10 min)
 ```
 
-Python 3 and `curl`. Nothing to install, no API keys.
+Python 3 and `curl`. No pip installs, no API keys.
 
-**Everything you'd change is in `companies.py`:**
+**`companies.py` is the only file to edit** — which companies appear (`TIER`), location / remote / salary (`FILTERS`), and what the senior feed searches (`SENIOR`). Re-run after any change; new rows since last time are marked 🆕.
 
-- `TIER` — which companies appear, and under which heading
-- `FILTERS` — location, remote / hybrid / onsite, minimum salary
-- `SENIOR` — what the senior feed searches for (role area, seniority level)
+## Layout
 
-Re-running is the point: roughly 40% of postings turn over every two weeks. New rows since the last run are marked 🆕.
+```
+skills/jobfeed/SKILL.md        the skill — what Claude reads
+skills/jobfeed/scripts/        the pipeline (black boxes; run.sh --help)
+skills/jobfeed/references/     endpoints, config fields, how to read the output
+companies.py                   your config
+run.sh                         shim → skills/jobfeed/scripts/run.sh
+data/                          regenerated each run, gitignored
+```
 
-**Built for [Claude Code](https://claude.com/claude-code).** Open the folder and type `/jobfeed` — then "run the senior feed", "only remote, Seattle or SF", or "add Waymo". The skill in `.claude/skills/jobfeed/` and `CLAUDE.md` tell it everything. Works fine by hand too.
+Follows the [Agent Skills spec](https://agentskills.io/specification); validates with `skills-ref validate skills/jobfeed`.
 
-Sources are SimplifyJobs (public) and two Jobright front-ends (unofficial — may change without notice). Every link is re-resolved to the employer's own job page; none go through Jobright. MIT.
+## Sources
+
+SimplifyJobs (public) and two unofficial Jobright endpoints — documented in [`references/endpoints.md`](skills/jobfeed/references/endpoints.md). They can change without notice. Every link is re-resolved to the employer's own job page; none route through Jobright. Roughly 40% of postings turn over every two weeks, so re-running is the point.
+
+MIT.

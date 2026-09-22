@@ -1,0 +1,8 @@
+{
+  "name": "jobs-skill",
+  "owner": { "name": "Anshul Chennavaram" },
+  "metadata": { "description": "Curated job lists from live sources — new grad, internships, senior", "version": "1.0.0" },
+  "plugins": [
+    { "name": "jobfeed", "description": "Build and refresh a curated job list (new grad, internships, senior/experienced) with employer-direct links; filter by company, location, work model, salary", "source": "./", "strict": false, "skills": ["./skills/jobfeed"] }
+  ]
+}

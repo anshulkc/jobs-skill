@@ -4,7 +4,10 @@ Filters live in companies.py -> SENIOR.  Codes: seniority 1 intern/new grad, 2 e
 domain (ai_company_jobs): software_engineer, data_analyst, product_management, design, ...
 domain (ai_jobs): all_roles, ai_infrastructure, ai_researcher, robotics, computer_vision, llm, nlp, ..."""
 import json,sys,os,time,urllib.request
-sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
+import os
+ROOT=os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','..','..'))
+sys.path[:0]=[os.path.dirname(os.path.abspath(__file__)),ROOT]
+os.makedirs(os.path.join(ROOT,'data'),exist_ok=True); os.chdir(os.path.join(ROOT,'data'))
 from companies import SENIOR,FILTERS
 WMCODE={'onsite':1,'remote':2,'hybrid':3}
 def page(pos,cnt,body):

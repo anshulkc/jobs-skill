@@ -1,7 +1,10 @@
-import json,sys,os; sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
+import json,sys,os; ROOT=os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','..','..'))
+import os
+sys.path[:0]=[os.path.dirname(os.path.abspath(__file__)),ROOT]
+os.makedirs(os.path.join(ROOT,'data'),exist_ok=True); os.chdir(os.path.join(ROOT,'data'))
 from lib import board
 from concurrent.futures import ThreadPoolExecutor
-T=json.load(open("board_tokens.json"))
+T=json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),"board_tokens.json")))
 out={}
 def w(it):
     co,l=it

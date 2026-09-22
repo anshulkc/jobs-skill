@@ -1,5 +1,7 @@
 import json,re,sys,os,collections,datetime
-sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
+ROOT=os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','..','..'))
+sys.path[:0]=[os.path.dirname(os.path.abspath(__file__)),ROOT]
+os.makedirs(os.path.join(ROOT,'data'),exist_ok=True); os.chdir(os.path.join(ROOT,'data'))
 from gen import section,table
 from companies import TITLE
 TODAY=datetime.date.today().isoformat()

@@ -1,6 +1,9 @@
 """Row filters shared by every feed. Configure in companies.py -> FILTERS. Empty list / None = no constraint."""
 import re,sys,os
-sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
+import os
+ROOT=os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','..','..'))
+sys.path[:0]=[os.path.dirname(os.path.abspath(__file__)),ROOT]
+os.makedirs(os.path.join(ROOT,'data'),exist_ok=True); os.chdir(os.path.join(ROOT,'data'))
 from companies import FILTERS
 _WM={"onsite":"onsite","on site":"onsite","on-site":"onsite","in person":"onsite","in-person":"onsite","hybrid":"hybrid","remote":"remote"}
 def norm_wm(s,is_remote=False):
