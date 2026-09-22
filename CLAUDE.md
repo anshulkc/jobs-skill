@@ -5,9 +5,12 @@ A curated new-grad and internship job list, rebuilt from live sources in one com
 ## Run it
 
 ```bash
-./run.sh            # writes jobs.md (5–10 min, mostly network)
-./run.sh out.md     # or choose the output path
+./run.sh                 # new grad + internships → jobs.md (5–10 min, mostly network)
+./run.sh --senior        # senior / experienced → senior.md (~1 min)
+./run.sh out.md          # either form takes an output path
 ```
+
+There is also a Claude Code skill in `.claude/skills/jobfeed/` — inside this folder, `/jobfeed` knows all of the below.
 
 Needs only Python 3 and `curl`. No pip installs, no API keys.
 
@@ -22,9 +25,22 @@ Re-running is safe and expected: it re-pulls everything, marks roles that weren'
 - **`FB`** — a careers-page URL per company, used when no exact posting link can be found. Add one whenever you add a company; otherwise its rows fall back to a web search.
 - **`TITLE`** — the heading of the output file.
 
+- **`FILTERS`** — location substrings (add `"Remote"` to allow remote), work model as any subset of `onsite`/`hybrid`/`remote`, and `salary_min` in annual USD. Empty = no constraint. Rows with no posted pay are kept unless `salary_min_strict`. Applies to every feed.
+
 Optionally `board_tokens.json` maps a company to its Greenhouse / Lever / Ashby board slug so rows get exact posting links. To find a slug: the company's careers page usually links to `boards.greenhouse.io/<slug>`, `jobs.lever.co/<slug>`, or `jobs.ashbyhq.com/<slug>`.
 
 When asked to add a company: add it to `TIER` (pick the closest bucket), add an `FB` URL, and if you can find its board slug, add it to `board_tokens.json`. Then re-run.
+
+## Senior mode — a different source
+
+`--senior` doesn't use the new-grad sources at all. It queries **careerin.ai**, another Jobright front-end whose search endpoint carries a real seniority label per posting:
+
+```
+POST https://www.careerin.ai/swan/ai-site/search/jobs?position=0&count=100
+{"type":"ai_company_jobs","domain":"software_engineer","seniority":[4,5],"workModel":[],"city":"","radiusRange":50}
+```
+
+Page by `position` in steps of 100 until an empty page (~2,500 rows for senior+lead SWE at AI companies; `count` above ~200 returns 500s). Codes and domains are listed in `companies.py` next to `SENIOR`. Every `applyLink` it returns is a `jobright.ai` redirect, so `gen_senior.py` re-resolves against the employer exactly as the new-grad path does. Output groups curated-list companies by theme first, then everything else by employer size.
 
 ## What the output means
 

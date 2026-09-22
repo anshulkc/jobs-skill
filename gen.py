@@ -2,6 +2,7 @@ import json,re,sys,os,time,urllib.parse,collections
 sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from lib import resolve
 from companies import CO2T,NAME,FB
+from filters import passes
 boards=json.load(open("boards.json")) if os.path.exists("boards.json") else {}
 BORING=re.compile(r'\bIT\b|help desk|technical support|marketing|sales|recruit|business analyst|accounting|audit|legal|communications|social media|content writer|ux research|data entry|field service|technician|data collection|data label|operator|survey|program manager|product manager|deployment strategist|privacy & civil|teacher|nurse|clinical|driver|test \d|ZZZ',re.I)
 DEEP=re.compile(r'compiler|kernel|gpu|cuda|distributed|systems|runtime|inference|training|infra|reinforcement|world model|autonomy|perception|robot|embedded|flight|silicon|verification|cryptograph|database|storage|scheduler|network|graphics|render|quantum|firmware|performance|latency|research|foundation model|llm|multimodal|eval|security|platform|backend|full.?stack|machine learning|software|developer|engineer|quant|scientist',re.I)
@@ -22,11 +23,13 @@ def build(src,cap=4):
             co=j["company_name"]; t=j["title"]; loc=" / ".join(j.get("locations") or [])
             if co not in CO2T or BORING.search(t) or not DEEP.search(t): continue
             if NONUS.search(loc) and not re.search(r'\b(CA|NY|WA|TX|IL|MA|CO|FL|GA|PA|VA|DC|NC|AZ|UT|OH|MD|NJ|MN|OR|TN)\b|United States|Remote in USA',loc): continue
+            if not passes(loc,None,"remote" in loc.lower(),"")[0]: continue
             rows.append(dict(co=co,title=t,loc=loc,ts=j["date_posted"],pay="",url=j["url"],src="ats"))
     else:
         for j in json.load(open(f"{src}_raw.json")):
             p=j["properties"]; co=p["company"]; t=p["title"]; q=p.get("qualifications") or ""
             if co not in CO2T or BORING.search(t) or not DEEP.search(t) or FLUFF.search(q+" "+t): continue
+            if not passes(p["location"],p.get("workModel"),False,p.get("salary") or "")[0]: continue
             rows.append(dict(co=co,title=t,loc=p["location"],ts=j["postedAt"]/1000,pay=(p.get("salary") or ""),season=p.get("hireTime") or "",url=None,src=None))
     seen=set(); cnt=collections.Counter(); keep=[]
     for r in sorted(rows,key=lambda z:-z["ts"]):

@@ -2,6 +2,7 @@ import json,re,sys,os,time,collections,urllib.parse
 sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from lib import board,resolve
 from companies import CO2T,NAME,FB
+from filters import passes
 from concurrent.futures import ThreadPoolExecutor
 J=json.load(open("intern_raw.json")); boards=json.load(open("boards.json"))
 OFF=re.compile(r'winter|spring|fall|autumn|off.?cycle|co-?op|january|q1',re.I)
@@ -14,6 +15,7 @@ for j in J:
     p=j["properties"]; t=p["title"]; co=p["company"]; s=p.get("hireTime") or ""
     if not OFF.search(s+" "+t) or BORING.search(t) or not ENG.search(t) or FLUFF.search((p.get("qualifications") or "")+" "+t): continue
     if JUNK.search(co) and co not in CO2T: continue
+    if not passes(p["location"],p.get("workModel"),False,p.get("salary") or "")[0]: continue
     pool.append(dict(co=co,title=t,loc=p["location"],season=s,pay=p.get("salary") or "",ts=j["postedAt"]/1000,inmap=co in CO2T))
 need=sorted({r["co"] for r in pool if r["co"] not in boards and r["co"] not in FB})
 def slugs(co):
